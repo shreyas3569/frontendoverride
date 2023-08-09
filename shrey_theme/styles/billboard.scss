@@ -1,0 +1,169 @@
+@use'./abstract/colors' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.specbee-billboard {
+  width: 100%;
+  background: #0020f6 url('https://www.specbee.com/themes/custom/specbee/assets/media/webp/billboard-bg.webp');
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &_line {
+    margin-top: 210px;
+    width: 130px;
+    height: 17px;
+    background-color: $secondary-yellow;
+  }
+
+  &_wrapper-2 {
+    display: flex;
+  }
+
+  &_container-2 {
+    display: flex;
+    flex-direction: column;
+    color: $primary-white;
+  }
+
+  &_container {
+    padding-top: 180px;
+    padding-left: 60px;
+    padding-bottom: 120px;
+    width: 90%;
+  }
+
+  &_title {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+
+  &_desc {
+    margin-bottom: 30px;
+    width:50%;
+  }
+
+  // &-link a {
+  //   height: 40px;
+  //   width: 220px;
+  //   background-color: $secondary-yellow;
+  //   border: 1px solid $secondary-yellow;
+  //   border-radius: 5px;
+  //   color: $secondary-blue;
+  //   text-decoration: none;
+  &-link a {
+    background-color: $secondary-yellow;
+    border: 0.0625rem solid $secondary-yellow;
+    color: #001186;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3125rem;
+    display: inline-block;
+
+    &:hover {
+      background-color: $secondary-blue;
+        border: 1px solid $secondary-yellow;
+        color: $secondary-yellow;
+
+    }
+  }
+}
+
+@media only screen and (min-width:668px)and (max-width:1024px) {
+  .specbee-billboard{
+    &_line {
+      display: none;
+    }
+
+    &_container {
+      width: 90%;
+      padding-top: 180px;
+      padding-left: 60px;
+      padding-bottom: 120px;
+    }
+
+    &_title {
+      font-size: 40px;
+      line-height: 1;
+      font-weight: 900;
+      margin-bottom: 30px;
+    }
+
+    &_desc {
+      margin-bottom: 40px;
+    }
+
+    &-link a {
+      height: 38px;
+      width: 240px;
+      text-decoration: none;
+
+      &:hover {
+        height: 38px;
+        width: 260px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width:375px)and (max-width:667px) {
+  .specbee-billboard {
+    width: 100%;
+
+    &_line {
+      margin-top: 160px;
+      width: 90px;
+      height: 15px;
+      background-color: $secondary-yellow;
+    }
+
+    &_wrapper {
+      margin-left: 20px;
+    }
+
+    &_title {
+      font-size: 23px;
+      line-height: 1;
+      font-weight: 900;
+      margin-bottom: 20px;
+      margin-left: 10px;
+    }
+
+    &_container {
+      width: 100%;
+      padding-top: 150px;
+      padding-left: unset;
+      padding-bottom: 30px;
+    }
+
+    &_desc {
+      margin-bottom: 40px;
+      text-align: center;
+      margin-left: -60px;
+      font-size: 16px;
+    }
+  }
+}
+.specbee-slider_revert-color{
+  width: 100%;
+    background:$secondary-blue url('https://www.specbee.com/themes/custom/specbee/assets/media/webp/billboard-bg.webp');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.specbee-slider_revert-color .specbee-billboard {
+  width: 100%;
+  background: #001186 url('https://www.specbee.com/themes/custom/specbee/assets/media/webp/billboard-bg.webp');
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

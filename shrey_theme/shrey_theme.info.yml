@@ -1,0 +1,16 @@
+name: shrey_theme
+type: theme
+description: "shrey theme"
+core_version_requirement: ^9 || ^10
+base theme: stable9
+regions:
+  header: "Header"
+  billboard: "Billboard"
+  content: "Content"
+  content_bottom: "Content Bottom"
+  footer_first: "Footer First"
+  footer_second: "Footer Second"
+  footer_third: "Footer Third"
+  footer_fourth: "Footer Fourth"
+libraries:
+  - shrey_theme/slick

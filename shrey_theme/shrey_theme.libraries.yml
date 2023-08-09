@@ -1,0 +1,24 @@
+header :
+  css:
+    theme:
+      css/header.css: {}
+      css/insights.css: {}
+      css/standing.css: {}
+      css/idea.css: {}
+      css/billboard.css: {}
+      css/slider.css: {}
+      css/colors.css: {}
+      css/boolean.css: {}
+      css/bool.css: {}
+  js:
+    js/slider.js: {}
+
+
+slick:
+  version: 1.x # Replace this with the version of Slick you downloaded
+  css:
+    theme:
+      assets/slick/slick.css: {}
+      assets/slick/slick-theme.css: {}
+  js:
+    assets/slick/slick.min.js: {}
