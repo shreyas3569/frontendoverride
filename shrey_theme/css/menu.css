@@ -1,0 +1,15 @@
+.headd {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: blue;
+}
+
+.list__container {
+  list-style-type: none;
+}
+
+.list__item a {
+  text-decoration: none;
+  color: white;
+}

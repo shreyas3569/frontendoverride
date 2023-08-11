@@ -10,8 +10,10 @@ header :
       css/colors.css: {}
       css/boolean.css: {}
       css/bool.css: {}
+      css/menu.css: {}
   js:
     js/slider.js: {}
+
 
 
 slick:
@@ -22,3 +24,9 @@ slick:
       assets/slick/slick-theme.css: {}
   js:
     assets/slick/slick.min.js: {}
+
+
+main:
+  js:
+    js/view.js: {
+    }

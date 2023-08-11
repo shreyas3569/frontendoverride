@@ -14,3 +14,4 @@ regions:
   footer_fourth: "Footer Fourth"
 libraries:
   - shrey_theme/slick
+  - shrey_theme/main
